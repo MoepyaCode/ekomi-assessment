@@ -1,0 +1,8 @@
+@base_url = http://localhost:8080/api/products
+
+# ______________________ Get All Products________________________
+GET {{base_url}}/
+
+###
+# ______________________ Get Product By ID________________________
+GET {{base_url}}/a1b2c3d4-1111-4e9f-8a7b-2c3d4e5f6a7b

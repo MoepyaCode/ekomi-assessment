@@ -1,0 +1,22 @@
+@base_url = http://localhost:8080/api/orders
+
+###
+# ______________________ Get All Orders________________________
+GET {{base_url}}/
+
+###
+# ______________________ Get Order By ID________________________
+GET {{base_url}}/:id
+
+###
+# ______________________ Update Order Payment status________________________
+PATCH {{base_url}}/123/paid
+Content-Type: application/json
+
+{
+    "isPaid": true
+}
+
+###
+# ______________________ Get Order Items By Order ID________________________
+GET {{base_url}}/order-0004-4444-4e9f-8a7b-444444444444/items
