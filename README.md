@@ -1,5 +1,14 @@
 # Ekomi Assessment Project
 
+## Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Setup Instructions](#setup-instructions)
+   - [Database Setup](#1-database-setup)
+   - [Backend Setup](#2-backend-setup)
+   - [Frontend Setup](#3-frontend-setup)
+3. [Quick Start](#quick-start)
+4. [Application Views](#application-views)
+
 ## Prerequisites
 - Docker & Docker Compose
 - Node.js (latest LTS version) & npm (latest version)
@@ -60,3 +69,13 @@ docker-compose down
 
 # Stop dev servers with Ctrl+C in respective terminals
 ```
+
+## Application Views
+
+### Main Page
+![Main Page](readme/main-page.png)
+
+### Items Page
+![Items Page](readme/items-page.png)
+### Items Page
+![Items Page](readme/items-page.png)
